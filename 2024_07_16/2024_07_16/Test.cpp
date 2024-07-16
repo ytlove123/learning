@@ -366,7 +366,7 @@ void Test1()
 	Data<double, int> d1; // 调用特化的int版本
 	Data<int, double> d2; // 调用基础的模板 
 	Data<int*, int*> d3; // 调用特化的指针版本
-	Data<int&, int&> d4(1, 2); // 调用特化的指针版本
+	Data<int&, int&> d4(1, 2); // 调用特化的引用版本
 }
 
 
